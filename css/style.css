@@ -279,6 +279,9 @@ section.header-bg-parent:after {
     color: #fff;
 }
 
+.feature-col:hover p {
+    color: #fff;
+}
 .feature-col h3 {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
@@ -944,10 +947,28 @@ hr.footer-hr {
 .btn-wsp:hover{
     background: #20ba5a;
 }
+
+
+.categorias{
+    display:flex;
+    flex-direction:row;
+}
+.cajita1{
+    padding:1%;
+    margin: 1rem;
+    width:100%;
+    height:100%;
+}
 @media only screen and (min-width:320px) and (max-width:768px){
     .btn-wsp{
         width:63px;
         height:63px;
         line-height: 66px;
 	}
+    .categorias{
+        flex-direction:column;
+    }
+    .feature-col{
+        height:30% !important;
+    }
 }
