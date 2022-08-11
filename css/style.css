@@ -125,6 +125,8 @@ header {
 }
 
 .logo img {
+    display: flex;
+    align-items: center;
     width: 144px;
     height: 58px;
 }
