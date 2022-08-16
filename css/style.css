@@ -254,8 +254,66 @@ section.header-bg-parent:after {
     margin-top: 40px;
 }
 
-.feature-col {
-    background-color: #fff;
+.feature-col1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo4.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-shadow: 2px 2px 10px #fefefe;
+    border-radius: 13px;
+    transition: all 0.5s ease;
+    height: 620px;
+}
+.feature-col2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo5.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-shadow: 2px 2px 10px #fefefe;
+    border-radius: 13px;
+    transition: all 0.5s ease;
+    height: 620px;
+}
+.feature-col3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo6.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-shadow: 2px 2px 10px #fefefe;
+    border-radius: 13px;
+    transition: all 0.5s ease;
+    height: 620px;
+}
+.feature-col4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo7.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-shadow: 2px 2px 10px #fefefe;
+    border-radius: 13px;
+    transition: all 0.5s ease;
+    height: 620px;
+}
+.feature-col5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo8.jpg);
+    background-size: cover;
+    color: #fff;
     padding: 30px;
     width: 100%;
     float: left;
@@ -289,18 +347,27 @@ section.header-bg-parent:after {
 }
 
 
-.feature-col img {
+.feature-col1 img,
+.feature-col2 img,
+.feature-col3 img,
+.feature-col4 img,
+.feature-col5 img {
     width: 80px;
     height: 80px;
     margin: 30px 0px;
 }
 
-.feature-col h4 {
+.feature-col1 h4,
+.feature-col2 h4,
+.feature-col3 h4,
+.feature-col4 h4,
+.feature-col5 h4 {
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
     color: #4d4d4d;
     margin-bottom: 20px;
 }
+
 
 /*why choose us */
 
@@ -324,6 +391,8 @@ section.header-bg-parent:after {
 .stat-info-par {
     float: right;
     width: 70%;
+    position: relative;
+    top: 200px;
 }
 
 
@@ -1011,4 +1080,8 @@ hr.footer-hr {
     font-family: 'Nunito';
     color: white;
     border-radius: .25em;
+}
+
+.logo{
+    margin: -1.06rem;
 }

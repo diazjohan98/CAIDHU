@@ -161,6 +161,8 @@
     .stat-info-par {
         float: right;
         width: 68%;
+        position: relative;
+        top: -10px;
     }
 
     .stat-info-sub-par {

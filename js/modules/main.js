@@ -1,6 +1,9 @@
 const container = document.querySelector('#container-semillero');
-import {semilleroCard} from '../modules/semilleroCard.js'
-import {formatearFecha} from '../modules/formatofecha.js'
+import {semilleroCard} from '../modules/semilleroCard.js';
+import {formatearFecha} from '../modules/formatofecha.js';
+const facebook = document.querySelector('#facebook');
+const instagram = document.querySelector('#instagram');
+console.log(facebook);
 console.log(container);
 document.addEventListener('DOMContentLoaded', () => {
     let url = 'https://caidhu.herokuapp.com/semillero/user';
@@ -19,6 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
             semilleroCard(container,imageURL,newDate,title,description);
         });
     }
+})
+
+
+facebook.addEventListener('click',()=>{
+    window.open('https://www.facebook.com/Caidhu','Caidhu Facebook');
+})
+
+instagram.addEventListener('click',()=>{
+    window.open('https://www.instagram.com/caidhu2022/','Caidhu Instagram');
 })
 
 
