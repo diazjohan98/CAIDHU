@@ -209,7 +209,7 @@ section.header-bg-parent {
     color: #fff;
 }
 
-button.common-btn {
+button .common-btn {
     background: linear-gradient(90deg, #fe8a42, #f46914);
     padding: 15px 30px;
     color: #fff;
@@ -222,7 +222,7 @@ button.common-btn {
     transition: all 0.5s ease;
 }
 
-button.common-btn:hover {
+button .common-btn:hover {
     background: linear-gradient(180deg, #f46914, #fe8a42);
 }
 
@@ -1050,10 +1050,11 @@ hr.footer-hr {
     height:100%;
 }
 
-button.common-btn1 {
+.common-btn1 {
+    
     position: relative;
-    left: 22%;
-    top: 250px;
+    left: 47.5%;
+    top: -132px;
     background: linear-gradient(90deg, #fe8a42, #f46914);
     padding: 15px 30px;
     color: #fff;
@@ -1066,7 +1067,7 @@ button.common-btn1 {
     transition: all 0.5s ease;
 }
 
-button.common-btn1:hover {
+button .common-btn1:hover {
     background: linear-gradient(180deg, #f46914, #fe8a42);
 }
 
@@ -1081,12 +1082,12 @@ button.common-btn1:hover {
 } 
 
 .feature-col6 {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo9.png);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo9.png); */
     background-size: cover;
-    color: #fff;
+    color: #3b3663;
     padding: 30px;
-    width: 900px;
-    height: 700px;
+    /* width: 900px; */
+    height: 397px;
     position: relative;
     float: left;
     left: 15%;
@@ -1099,33 +1100,49 @@ button.common-btn1:hover {
 }
 
 .text-relleno {
+
     position: relative;
-    top: 220px;
-    color: #fff;
-    text-align: center;
+    top: -185px;
+    left: 54%;
+    color: #3b3663;
+    text-align: left;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
+    margin: -94px;
     margin-bottom: 7px;
+    width: 58%;
 }
 .text-relleno1{
+  
     position: relative;
-    top: 243px;
-    color: #fff;
-    text-align: center;
+    top: -137px;
+    left: 54%;
+    color: #3b3663;
+    /* text-align: center; */
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
+    margin: -25px;
     margin-bottom: 7px;
+    width: 41%;
 }
 .text-capacitacion {
+
     position: relative;
-    top: 35%;
+    top: -92%;
+    margin: 10px;
     text-align: center;
-    color: #fff;
+    color: #3b3663;
     font-size: 23px;
     line-height: 38px;
 }
+
+.img-capacitacion{
+    position: relative;
+    top: 59px;
+}
+
 @media only screen and (min-width:376px) and (max-width:768px){
     .btn-wsp{
         width:63px;
@@ -1169,52 +1186,57 @@ button.common-btn1:hover {
 .read-more-state:checked~.read-more-trigger:before {
     content: 'Ver menos';
 }
-
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    background:linear-gradient(90deg, #fe8a42, #f46914);
+    font-weight: bold;
+    font-family: 'Nunito';
+    color: white;
+    border-radius: .25em;
+}
 .feature-col6 {
     width: 98%;
     position: initial;
 }
+/* .img-capacitacion{
 
-button.common-btn1 {
-        
+    width: 100%;
+    position: relative;
+    top: 109px;
+
+} */
+/* .common-btn1 {
     position: relative;
     width: 95%;
     top: 197px;
     left: 16px;
-}
+} */
 
-.text-capacitacion {
+/* .text-capacitacion {
     width: 98%;
     position: relative;
-    top: 124px;
-}
+    top: -54%;
+    margin: 10px;
 
-.text-relleno{
+} */
+
+/* .text-relleno{
     width: 98%;
     position: relative;
-    top: 146px;
-}
-.text-relleno1{
+    top: -290px;
+    left: 46%;
+} */
+/* .text-relleno1{
     width: 98%;
     position: relative;
-    top: 178px;
-}
+    top: -274px;
+    left: 23%;
+} */
 
 
 
-@media only screen and (max-width:319px){
-    .text-capacitacion {
-        width: 98%;
-        position: relative;
-        top: 10px;
-    }
-    
-    
-    button.common-btn1 {
-        
-        position: relative;
-        top: 120px;
-        left: -9px;
-    
-    }
-}
