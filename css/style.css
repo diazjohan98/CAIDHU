@@ -926,18 +926,28 @@ input.submit-btn:hover {
 }
 
 .footer-col {
+    position: relative;
+    top: 140px;
+    right: 629px;
     float: left;
-    width: 30%;
-    margin-right: 3%;
-    margin-top: 45px;
+    width: 24%;
+    margin-right: -8%;
+    margin-top: 0px;
 }
 
 .footer-2-col {
     position: relative;
-    left: 110px;
+    left: 80px;
 }
 
 .footer-col h3 {
+    color: #3b3663;
+    font-family: "Nunito";
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-col3 h3 {
     color: #3b3663;
     font-family: "Nunito";
     font-weight: 800;
@@ -952,7 +962,32 @@ input.submit-btn:hover {
     line-height: 28px;
 }
 
+.footer-col3 p {
+    color: #696687;
+    font-size: 16px;
+    font-family: "Rubik";
+    font-weight: 400;
+    line-height: 28px;
+}
+
 .footer-col i {
+    color: #fff;
+    background-color: #ff881f;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.footer-col3{
+    position: relative; left: -569px; top: 141px; width: 106%;
+}
+
+.footer-col3 i {
     color: #fff;
     background-color: #ff881f;
     border-radius: 50px;
@@ -987,7 +1022,7 @@ input.submit-btn:hover {
     list-style: none;
 }
 
-.footer-col a {
+.footer-col3 a {
     color: #696687;
     text-decoration: none;
     padding-left: 10px;
@@ -1052,9 +1087,9 @@ hr.footer-hr {
 
 .common-btn1 {
     
-    position: relative;
-    left: 47.5%;
-    top: -132px;
+    position: inherit;
+    left: -2%;
+    top: 106px;
     background: linear-gradient(90deg, #fe8a42, #f46914);
     padding: 15px 30px;
     color: #fff;
@@ -1081,23 +1116,6 @@ button .common-btn1:hover {
     font-size: 17px;
 } 
 
-.feature-col6 {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo9.png); */
-    background-size: cover;
-    color: #3b3663;
-    padding: 30px;
-    /* width: 900px; */
-    height: 397px;
-    position: relative;
-    float: left;
-    left: 15%;
-    margin: 10px;
-    margin-right: 1%;
-    margin-left: 1%;
-    box-shadow: 2px 2px 10px #fefefe;
-    border-radius: 13px;
-    transition: all 0.5s ease;
-}
 
 .text-relleno {
 
@@ -1127,23 +1145,70 @@ button .common-btn1:hover {
     margin-bottom: 7px;
     width: 41%;
 }
-.text-capacitacion {
-
-    position: relative;
-    top: -92%;
-    margin: 10px;
-    text-align: center;
-    color: #3b3663;
-    font-size: 23px;
-    line-height: 38px;
-}
 
 .img-capacitacion{
+    width: 49%;
     position: relative;
-    top: 59px;
+    left: 10px;
+    top: 109px;
 }
 
-@media only screen and (min-width:376px) and (max-width:768px){
+.feature-col5 {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo8.jpg); */
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+    float: left;
+    margin: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-shadow: 2px 2px 10px #fefefe;
+    border-radius: 13px;
+    transition: all 0.5s ease;
+    height: 620px;
+}
+
+.stat-info-div1 p {
+    color: #3B3663;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Rubik";
+    padding: 20px 0px;
+    position: relative;
+    left: -119px;
+    top: 23px;
+    width: 98%;
+}
+
+.stat-info-div1 .text-relleno{
+    width: 93%;
+    font-weight: 600;
+    position: inherit;
+    top: 110PX;
+    left: -41px;
+}
+
+.stat-info-sub-par1 {
+    margin: 50px 0px 40px;
+}
+
+.stat-info-div1 {
+    position: relative;
+}
+
+.stat-info-div1:before {
+    content: "s";
+    border-left: 1px solid #ddd;
+    position: absolute;
+    height: 85px;
+    font-size: 0;
+    top: -199px;
+    left: -144px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
     .btn-wsp{
         width:63px;
         height:63px;
@@ -1156,7 +1221,7 @@ button .common-btn1:hover {
     .feature-col2,
     .feature-col3,
     .feature-col4,
-    .feature-col5{
+    .feature-col5 {
         height:30% !important;
     }
 }
@@ -1186,6 +1251,7 @@ button .common-btn1:hover {
 .read-more-state:checked~.read-more-trigger:before {
     content: 'Ver menos';
 }
+
 .read-more-trigger {
     cursor: pointer;
     display: inline-block;
@@ -1199,44 +1265,7 @@ button .common-btn1:hover {
     color: white;
     border-radius: .25em;
 }
-.feature-col6 {
-    width: 98%;
-    position: initial;
+
+.logo{
+    margin: -1.06rem;
 }
-/* .img-capacitacion{
-
-    width: 100%;
-    position: relative;
-    top: 109px;
-
-} */
-/* .common-btn1 {
-    position: relative;
-    width: 95%;
-    top: 197px;
-    left: 16px;
-} */
-
-/* .text-capacitacion {
-    width: 98%;
-    position: relative;
-    top: -54%;
-    margin: 10px;
-
-} */
-
-/* .text-relleno{
-    width: 98%;
-    position: relative;
-    top: -290px;
-    left: 46%;
-} */
-/* .text-relleno1{
-    width: 98%;
-    position: relative;
-    top: -274px;
-    left: 23%;
-} */
-
-
-

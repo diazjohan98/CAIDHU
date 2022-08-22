@@ -122,7 +122,7 @@
         box-shadow: 2px 2px 10px #fefefe;
         border-radius: 13px;
         transition: all 0.5s ease;
-        /* height: 265px; */
+        height: 265px;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -174,6 +174,10 @@
     }
 
     .stat-info-sub-par {
+        margin: 10px 0px 10px;
+    }
+
+    .stat-info-sub-par1 {
         margin: 10px 0px 10px;
     }
 
@@ -331,6 +335,7 @@
     }
 
     .footer-col {
+        position: revert;
         float: none;
         width: 100%;
         margin-right: 0%;
@@ -340,6 +345,7 @@
 
     .footer-2-col {
         position: relative;
+        top: 5px;
         left: 0px;
     }
 
@@ -347,4 +353,46 @@
         margin: 30px 0px 0px;
     }
 
+    .stat-info-div1 p{
+        text-align: center;
+        text-align: center;
+        position: relative;
+        left: 3px;
+        top: -10px;
+        width: 99%;
+    }
+
+    .stat-info-div1 .text-relleno{
+        position: relative;
+        top: 57px;
+        left: 108px;
+    }
+
+    .common-btn1{
+        position: relative;
+        top: 29px;
+        left: 0px;
+    }
+
+    .imagen-capa{
+        position: relative;
+        left: 2px;
+        width: 100%;
+    }
+
+    .footer-col3{
+        position: relative;
+        left: 9px;
+        top: 10px;
+        width: 105%;
+    }
+
+    .footer-col3 h3{
+        text-align: center;
+        /* position: absolute; */
+        /* top: 3px; */
+        /* left: 105px; */
+        width: 89%;
+        margin-top: 23px;
+    }
 }
