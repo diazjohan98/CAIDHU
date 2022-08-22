@@ -209,7 +209,7 @@ section.header-bg-parent {
     color: #fff;
 }
 
-button .common-btn {
+button.common-btn {
     background: linear-gradient(90deg, #fe8a42, #f46914);
     padding: 15px 30px;
     color: #fff;
@@ -222,7 +222,7 @@ button .common-btn {
     transition: all 0.5s ease;
 }
 
-button .common-btn:hover {
+button.common-btn:hover {
     background: linear-gradient(180deg, #f46914, #fe8a42);
 }
 
